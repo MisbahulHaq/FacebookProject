@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.96 s <<< FAILURE! -- in TestSuite
-tests.LoginTest.testFacebookLogin -- Time elapsed: 6.989 s <<< FAILURE!
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.92 s <<< FAILURE! -- in TestSuite
+tests.LoginTest.testFacebookLogin -- Time elapsed: 4.577 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
 	at utils.RetryAnalyzer.retry(RetryAnalyzer.java:17)
 	at org.testng.internal.invokers.TestInvoker.shouldRetryTestMethod(TestInvoker.java:577)
@@ -34,7 +34,7 @@ java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.Exte
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-tests.ForgotPasswordTest.testForgotPasswordFlow -- Time elapsed: 2.359 s <<< FAILURE!
+tests.ForgotPasswordTest.testForgotPasswordFlow -- Time elapsed: 2.465 s <<< FAILURE!
 java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, String)" because "this.test" is null
 	at utils.TestListener.onTestSuccess(TestListener.java:47)
 	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:119)

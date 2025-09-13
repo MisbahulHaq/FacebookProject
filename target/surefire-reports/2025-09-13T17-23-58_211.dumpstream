@@ -1,4 +1,4 @@
-# Created at 2025-09-13T15:09:54.821
+# Created at 2025-09-13T17:23:58.352
 Boot Manifest-JAR contains absolute paths in classpath 'D:\AutomationProjet\FacebookProject\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root

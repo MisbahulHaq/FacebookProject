@@ -24,4 +24,9 @@ public class ForgotPasswordTest extends BaseTest {
 
         test.log(Status.INFO, "Page title: " + forgotPage.getPageTitle());
     }
+    @Test
+    public void test1()
+    {
+    	System.out.println("hello");
+    }
 }
