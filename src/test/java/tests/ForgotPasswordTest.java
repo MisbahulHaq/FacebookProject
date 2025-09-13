@@ -29,4 +29,9 @@ public class ForgotPasswordTest extends BaseTest {
     {
     	System.out.println("hello");
     }
+    @Test
+    public void test2()
+    {
+    	System.out.println("hello world!");
+    }
 }
